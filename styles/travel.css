@@ -102,6 +102,118 @@ nav ul{
     width: 400px;
 }
 
+/* Choose Your Destination */
+
+.destination-conteiner{
+    margin-top: 100px;
+    /* margin-bottom: 0px; */
+}
+.destination-content{
+    text-align: center;
+}
+.destination-title{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800px;
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+}
+.maldive-indonesia{
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    border-radius: 10px;
+}
+.maldive{
+    background-image: url("../Images/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+    /* font-size: 1.7rem;
+    font-weight: 800px; */
+}
+.indonesia{
+    background-image: url("../Images/Rectangle\ 8.png");
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+    /* font-size: 1.7rem;
+    font-weight: 800px; */
+}
+.srilanka{
+    background-image: url(../Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 330px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+    /* font-size: 1.7rem;
+    font-weight: 800px; */
+}
+.america{
+    background-image: url("../Images/Rectangle\ 7.png");
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+    /* font-size: 1.7rem;
+    font-weight: 800px; */
+}
+.kasmir{
+    background-image: url("../Images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+    /* font-size: 1.7rem;
+    font-weight: 800px; */
+}
+.srilanka-america-kasmir{
+    display: flex;
+    margin-left: 240px;
+    gap: 10px; 
+}
+.bangladesh-bandarban{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 24px;
+}
+.bangladesh{
+    background-image: url("../Images/Rectangle\ 11.png");
+    background-repeat: no-repeat;
+    width: 473px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+}
+.bandarban{
+    background-image: url("../Images/Rectangle\ 10.png");
+    background-repeat: no-repeat;
+    width: 530px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+}
+
+/* Why Choose Us */
+
+
 /* Small Device Media Quari */
 @media screen and (max-width:600px) {
     .nav-bar{
@@ -147,6 +259,56 @@ nav ul{
     }
     .our-tour-conteiner-img{
         height: 300px;
+        width: 300px;
+    }
+
+    /* Choose Your Destination */
+
+    .destination-conteiner{
+        margin-top: 50px;
+    }
+    .destination-title{
+        font-size: 1.2rem;
+        font-weight: 800px;
+    }
+
+    .maldive-indonesia{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .maldive{
+        height: 150px;
+        width: 300px;
+        margin-bottom: 0px;
+    }
+    .indonesia{
+        height: 150px;
+        width: 300px;
+        margin-top: 0px;
+    }
+    .srilanka-america-kasmir{
+        flex-direction: column;
+        margin-left: 0px;
+        gap: 0px;
+    }
+    .srilanka{
+        width: 300px;
+    }
+    .america{
+        width: 300px;
+    }
+    .kasmir{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .bangladesh-bandarban{
+        flex-direction: column;
+    }
+    .bangladesh{
+        width: 300px;
+    }
+    .bandarban{
+        margin-top: 0px;
         width: 300px;
     }
 }
