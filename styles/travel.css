@@ -329,6 +329,7 @@ hr{
     margin-left: 5px;
     border-radius: 10px;
     background: #FF5400;
+    color:#FFF;
 }
 .forth-btn{
     position: relative;
@@ -339,6 +340,7 @@ hr{
     transform:translate(100px) rotate(-20.668deg);
     border-radius: 16px;
     background: #FF5400;
+    color:#FFF;
 }
 /* Agency Part */
 .agency-part{
@@ -409,7 +411,7 @@ footer{
 
 
 /* Small Device Media Quari */
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
     .nav-bar{
         flex-direction: column;
         margin: 0px;
@@ -572,4 +574,193 @@ footer{
         height: 40px;
         margin-right: 10px;
     }
+}
+
+/* large screen */
+@media screen and (min-width:600px) and (max-width:992px) {
+    .nav-bar{
+        flex-direction: column;
+        margin: 0px ;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* banner section */
+    .banner{
+        margin: 0px;
+        margin-left: 15px;
+    }
+    .banner-title{
+        padding-top: 5px;
+    }
+    .banner-description{
+        margin-bottom: 5px;
+        font-size: 1.5rem;
+    }
+    .input-style{
+        flex-direction: column;
+        height: 300px;
+        padding-left: 140px;
+    }
+    .palaceholder{
+        height: 60px;
+        width: 250px;
+    }
+    .fisrt-btn{
+        margin-left: 60px;
+    }
+
+    /* Our Popular tour */
+    .our-tour-conteiner{
+        flex-direction: column;
+        margin: 0px 0px 0px 10px;
+        gap: 10px;
+    }
+    .our-tour-conteiner-img{
+        height: 300px;
+        width: 500px;
+    }
+
+    /* Choose Your Destination */
+
+    .destination-conteiner{
+        margin-top: 50px;
+    }
+    .destination-title{
+        font-size: 1.2rem;
+        font-weight: 800px;
+    }
+
+    .maldive-indonesia{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .maldive{
+        height: 300px;
+        width: 550px;
+        margin-bottom: 0px;
+        margin-left: 30px;
+    }
+    .indonesia{
+        height: 300px;
+        width: 550px;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    .srilanka-america-kasmir{
+        flex-direction: column;
+        margin-left: 0px;
+        gap: 0px;
+    }
+    .srilanka{
+        height: 200px;
+        width: auto;
+        margin-left: 100px;
+    }
+    .america{
+        height: 300px;
+        width: auto;
+        margin-left: 60px;
+    }
+    .kasmir{
+        height: 300px;
+        width: auto;
+        margin-left: 150px;
+    }
+    .bangladesh-bandarban{
+        flex-direction: column;
+    }
+    .bangladesh{
+        height: 300px;
+        width: auto;
+        margin-left: 70px;
+    }
+    .bandarban{
+        margin-top: 0px;
+        width: auto;
+        margin-left: 20px;
+    }
+
+    /* Why Choose Us */
+    .why-choose-us{
+        margin-top: 50px;
+    }
+    .option{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .option1{
+        width: auto;
+        margin-left: 15px;
+    }
+    .option2{
+        width: auto;
+        margin-left: 15px;
+    }
+    .best-price{
+        margin: 20px 0px 0px 15px;
+    }
+    .best-price img{
+        padding-left: 5px;
+    }
+    .option-title{
+        padding-left: 5px;
+    }
+    .option-description{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .option img{
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+
+    /* Newsletter */
+    .input-section{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .input-title{
+        text-align: center;
+    }
+    .input-styles{
+        margin-left: 150px;
+    }
+    .third-btn{
+        margin-left: 150px;
+    }
+    .input-img{
+        width: auto;
+        height: 350px;
+        margin-left: 15px;
+    }
+    .newsletter-conteiner{
+        margin-top: 10px;
+    }
+    .forth-btn{
+        position: relative;
+        bottom: 110px;
+        left: 355px;
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+    }
+    .agency-part{
+        flex-direction: column;
+        margin: 400px 0px 0px 0px;
+    }
+    .agency-conteiner{
+        margin-left: 20px;
+    }
+
+    /* footer */
+    .footer-conteiner{
+        margin-top: 20px;
+    }
+    .icon1, .icon2, .icon3, .icon4{
+        height: 40px;
+        margin-right: 10px;
+    }
+
 }
