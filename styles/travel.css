@@ -211,8 +211,70 @@ nav ul{
     color: #FFF;
 }
 
-/* Why Choose Us */
 
+/* Why Choose Us */
+.why-choose-us{
+    text-align: center;
+    margin-top: 100px;
+}
+.Choose-title{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800px;
+}
+.Choose-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+}
+.option{
+    display: flex;
+    gap: 24px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.option1{
+    background-color: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius: 16px;
+    width: 573px;
+    height: 284px;
+    
+}
+.option2{
+    background-color: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    border-radius: 16px;
+    width: 573px;
+    height: 284px;
+}
+.option img{
+    padding-left: 32px;
+    padding-top: 32px;
+}
+.option-title{
+    color: #131318;
+    font-size: 1.6rem;
+    font-weight: 800px;
+    padding-left: 32px;
+}
+.option-description{
+    color: #5A5A5D;
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 32px;
+}
+.best-price{
+    margin-left: 430px;
+    margin-right: 430px;
+    margin-top: 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.best-price img{
+    padding-left: 32px;
+    padding-top: 32px;
+}
 
 /* Small Device Media Quari */
 @media screen and (max-width:600px) {
@@ -310,5 +372,37 @@ nav ul{
     .bandarban{
         margin-top: 0px;
         width: 300px;
+    }
+
+    /* Why Choose Us */
+    .why-choose-us{
+        margin-top: 50px;
+    }
+    .option{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .option1{
+        width: 300px;
+    }
+    .option2{
+        width: 300px;
+    }
+    .best-price{
+        margin: 20px 0px 0px 0px;
+    }
+    .best-price img{
+        padding-left: 5px;
+    }
+    .option-title{
+        padding-left: 5px;
+    }
+    .option-description{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .option img{
+        padding-top: 5px;
+        padding-left: 5px;
     }
 }
