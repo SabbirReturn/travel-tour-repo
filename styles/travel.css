@@ -28,6 +28,7 @@ nav ul{
     height: 500px;
     text-align: center;
     margin:50px 160px ;
+    border-radius: 10px;
 }
 .banner-title{
     color: #FFF;
@@ -71,6 +72,35 @@ nav ul{
     border: none;
 }
 
+/* Our Popular tour */
+.our-tour-conteiner{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    margin-left: 146px;
+    margin-right: 160px;
+}
+.popular-tour-title{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800px;
+}
+.popular-tour-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+}
+.second-btn{
+    width: 174px;
+    height: 52px;
+    background-color: #FF5400;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
+}
+.our-tour-conteiner-img{
+    height: 400px;
+    width: 400px;
+}
 
 /* Small Device Media Quari */
 @media screen and (max-width:600px) {
@@ -107,5 +137,16 @@ nav ul{
     }
     .fisrt-btn{
         margin-left: 60px;
+    }
+
+    /* Our Popular tour */
+    .our-tour-conteiner{
+        flex-direction: column;
+        margin: 0px;
+        gap: 10px;
+    }
+    .our-tour-conteiner-img{
+        height: 300px;
+        width: 300px;
     }
 }
